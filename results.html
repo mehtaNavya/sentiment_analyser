@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results for {{ query }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Results for "{{ query }}"</h1>
+  {% for result in results %}
+    <div class="tweet-box">
+      <p><strong>Tweet:</strong> {{ result.text }}</p>
+      <p>Sentiment: <span class="{{ result.sentiment|lower }}">{{ result.sentiment }}</span></p>
+    </div>
+  {% endfor %}
+  <a href="/">Try another search</a>
+</body>
+</html>

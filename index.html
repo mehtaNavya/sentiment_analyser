@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tweet Sentiment Analyzer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Tweet Sentiment Analyzer</h1>
+  <form method="POST">
+    <input type="text" name="query" placeholder="Search Tweets..." required>
+    <button type="submit">Analyze</button>
+  </form>
+</body>
+</html>
