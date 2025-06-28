@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body {
+  font-family: 'Pixelify Sans', cursive;
+  background-image: url("/static/percemoji.jpg");
+  padding: 30px;
+  margin: 0;
+  color: #102542;
+}
+
+h1 {
+  color: black;
+  background-color: white;
+  text-shadow: darkred;
+  text-align: center;
+  font-size: 115px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+form input[type="text"] {
+  padding: 12px;
+  width: 300px;
+  border: 2px solid #5588ff;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+form button {
+  padding: 12px 20px;
+  background-color: #3366ff;
+  color: white;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #5588ff;
+}
+
+.tweet-box {
+  background-color: #ffffff;
+  border-left: 6px solid #99ccff;
+  padding: 15px 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+
+.tweet-box p {
+  margin: 5px 0;
+}
+
+.positive {
+  color: green;
+  font-weight: bold;
+}
+
+.negative {
+  color: red;
+  font-weight: bold;
+}
+
+.neutral {
+  color: gray;
+  font-weight: bold;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  background-color: white;
+  font-size: 50px;
+  color: #3366ff;
+  text-decoration: none;
+}
+
+a:hover {
+  
+  color: navy;
+}
